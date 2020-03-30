@@ -26,7 +26,7 @@ public class MovieFormHandler implements CommandHandler {
 			if(dir.exists() == false) {
 				dir.mkdir();
 			}
-			
+			//커밋
 			int size = 1024*1024*10;
 			
 			MultipartRequest multi = new MultipartRequest(req, uploadPath, size,"UTF-8",new DefaultFileRenamePolicy());
